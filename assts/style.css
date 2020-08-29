@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    background-image: url(img/bg/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+ul li{
+    width: 475.7px;
+    height: 40px;
+    background-color: #000000b6;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.8;
+    float: left;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 1.4s;
+}
+ul li a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.wel{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+h3 {
+    font-size: 20px;
+}
+h1 {
+    font-size: 43px;
+}
+.a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+.a:hover{
+    font-size: 33px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 1s;
+}
+h2{
+    font-size: 30px;
+}
+a img {
+    width: 50px;
+    border-radius: 580px;
+    margin-left: 1800px;
+    margin-top: 250px;
+}
+.btn-one {
+    background-color: #000000;
+    margin-top: 70px;
+    margin-left: 900px;
+    width: 100px;
+    height: 70px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.btn-one:hover {
+    background-color: #00000000;
+    margin-top: 70px;
+    margin-left: 900px;
+    width: 100px;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.aabout {
+    color: #ffffff;
+    text-decoration: none;
+    transition:all 1s;
+}
+.aabout:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1s;
+}
+.about {
+    background-color: #2b2b2b;
+    margin-top: 370px;
+
+    padding-top: 20px;
+    overflow: auto;
+}
+.imgadam {
+    float: left;
+    position: relative;
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.ab {
+
+    float: left;
+    color: #fff;
+    margin-left: 70px;
+    margin-bottom: 7px;
+}
+.pr {
+    float: left;
+    color: #ffffff93;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.al {
+    text-align: left;
+    overflow: auto;
+}
+.con {
+    margin-left: 70px;
+    color: white;
+}
+.imgtel  {
+
+    margin-left: 70px;
+    float: left;
+    top: 10px;
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+}
+.atel {
+    margin-left: 70px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.imgemail {
+    margin-left: 70px;
+    float: left;
+    top: 10px;
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.aemail {
+    margin-left: 70px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contact {
+    background-color: #191919;
+}
+.co {
+    padding-top: 30px;
+    color: white;
+}
+.inemail {
+padding: 18px 20px;
+color: #eee;
+background: #373233;
+margin-bottom: 42px;
+border: 0;
+outline: none;
+font-size: 15px;
+line-height: 24px;
+width: 65%;
+
+}
+.laem {
+    font: 15px/24px 'opensans-bold',
+    sans-serif;
+    color: #EBEEEE;
+    display: inline-block;
+    float: left;
+    width: 26%;
+    margin-left: 35px;
+}
+.submit {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #0D0D0D;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 60px;
+    margin-left: 530px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.submit:hover {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 60px;
+    margin-left: 530px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.cou {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    background: #000000;
+}
+.social a {
+    color: white;
+        text-decoration: none;
+}
+.adamfoot{
+    color: white;
+    text-decoration: none;
+}
